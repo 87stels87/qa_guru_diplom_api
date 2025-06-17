@@ -6,7 +6,7 @@ from curlify import to_curl
 from jsonschema.validators import validate
 from requests import sessions
 
-from helpers.schemas import get_users, get_user, register, update_user
+from data.schemas import get_users, get_user, register, update_user
 
 
 def setup_api_client(method, url, **kwargs):
