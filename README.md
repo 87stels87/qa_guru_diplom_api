@@ -1,4 +1,4 @@
-# Пример проекта автотестов для сайта  [https://reqres.in/]((https://reqres.in/))
+# Пример проекта автотестов для сайта  [reqres.in]((https://reqres.in/))
 
 ![main page screenshot](images/screen/reqres.png)
 ![main page screenshot](images/screen/swagger.png)
@@ -39,9 +39,9 @@ pip install -r requirements.txt
 pytest
 ```
 
-### С помощью [Jenkins]
+### С помощью Jenkins
 #### Для запуска автотестов необходимо:
- - Открыть [джобу] в jenkins
+ - Открыть джобу в jenkins
  - Нажать на кнопку Build with Parameters
  - Выбрать окружение, где будут исполняться тесты (заглушка)
  - Нажать на Build
