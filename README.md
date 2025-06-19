@@ -7,7 +7,7 @@
 ###  Используемые технологии
 <p align="center">
   <code><img src="images/logo/python.svg" width="40" height="40" title="Python"></code>
-  <code><img src="images/logo/pytest.svg" width="40" height="40" title="PyTest"></code>
+  <code><img src="images/logo/pytest.png" width="40" height="40" title="PyTest"></code>
   <code><img src="images/logo/selene.png" width="40" height="40" title="Selene"></code>
   <code><img src="images/logo/pycharm.png" width="40" height="40"vtitle="PyCharm"></code>
   <code><img src="images/logo/Jenkins.svg" width="40" height="40" title="Jenkins"></code>
