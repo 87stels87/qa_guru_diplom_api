@@ -27,7 +27,7 @@
 - [x] Удаление заданного пользователя; 
   
 ## Запуск тестов
-Процесс автоматизации тестирования организован с использованием Jenkins, размещённого в докер-контейнере. Контейнеризация Jenkins выполняется посредством Docker. Сам контейнер с Jenkins запущен на виртуальной машине (VM), предоставленной сервисом облачных вычислений Cloud.ru.
+Процесс автоматизации тестирования организован с использованием Jenkins, размещённого в докер-контейнере. Контейнеризация Jenkins выполняется посредством Docker. Сам контейнер с Jenkins запущен на виртуальной машине (VM), предоставленной сервисом облачных вычислений [Cloud.ru]((https://cloud.ru/)).
 
 
 
@@ -48,7 +48,7 @@ pytest
  - Выбрать окружение, где будут исполняться тесты (заглушка)
  - Нажать на Build
 
-<img src="images/screen/jenkins_parametrs.png">
+<img src="images/screen/j_par.png">
 
 ## Отчет о прохождении тестов (Allure)
 ### Локально
@@ -57,6 +57,7 @@ pytest
 allure serve tests/allure-results
 ``` 
 Ниже представлен пример allure отчета 
+<img src="images/screen/report.png">
 <img src="images/screen/report_1.png">
 
 Подробные инструкции по работе с allure можно найти по [ссылке](https://allurereport.org/docs/)..
@@ -64,16 +65,11 @@ allure serve tests/allure-results
 
 Для получения отчета нужно нажать на иконку allure report'a в строке билда  
 У него будет точно такой же формат, как и при получении локально
-<img src="images/screen/report_1.png">
-
-### В проекте реализована интеграция с Allure TestsOps. Проект в TestOps можно найти по [ссылке](https://allure.autotests.cloud/project/4791/dashboards).
-<img src="images/screen/testops1.png">
-<img src="images/screen/testops2.png">
-<img src="images/screen/testops3.png">
+<img src="images/screen/report.png">
 
 ### В проекте настроена отправка краткого отчета в Telegram
 <img src="images/screen/tg.png">
 
 #### Нагрузка виртуальной машины (vCPU=2, RAM=4) во время прогона тест-кейсов:
-<img src="images/screen/proc1.png">
-<img src="images/screen/package.png">
+<img src="images/screen/cloud_1.png">
+<img src="images/screen/cloud_2.png">
