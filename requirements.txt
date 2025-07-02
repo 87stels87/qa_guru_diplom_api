@@ -3,3 +3,4 @@ allure-pytest
 requests
 jsonschema
 curlify
+python-dotenv
